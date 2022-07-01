@@ -1,3 +1,5 @@
+This code is from paper "Joint covariate-alignment and concept-alignment: a framework for domain generalization" which is accepted at 2022 IEEE International Workshop on Machine Learning for Signal Processing, Agu. 22--25, 2022, Xi'an, China. 
+
 ####### A. For CS-CMNIST dataset only!
 
 First, you need to install some package for satisfying all the requirements below:

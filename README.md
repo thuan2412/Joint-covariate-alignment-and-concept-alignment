@@ -75,7 +75,7 @@ python -m sweep --command delete_incomplete
 --n_hparams 10
 --n_trials 2
 
-and then re-launch them by running step 2 again.
+and then re-launch them again.
 
 Finally, to view the results of your sweep by:
 

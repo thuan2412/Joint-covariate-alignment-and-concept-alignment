@@ -85,3 +85,5 @@ python -m domainbed.scripts.collect_results
 --input_dir=/my/sweep/output/path
 
 Note: please take a look at the tested algorithms in "algorithms.py". The algorithms are denoted from 1, 2, ..., up to 8 in order of ERM, IRM, IB_ERM, IB_IRM, CEM, IRM_MMD, CEM_MMD, and CEM_CORAL. We have different names for ERM, IRM, IB_ERM algorithms so these algorithms can run together without conflict. However, to keep the same number of hyper-parameters and utilize the existing source code, all algorithms IB_IRM, CEM, IRM_MMD, CEM_MMD, and CEM_CORAL are under the same name of "IB_IRM" - because they are very similar, just having a bit of change at the loss function. Please select only one algorithm from five algorithms IB_IRM, CEM, IRM_MMD, CEM_MMD, and CEM_CORAL to run at a time and comment out other ones. In the default code, we are using the CEM algorithm and commented out IB_IRM, IRM_MMD, CEM_MMD, and CEM_CORAL.
+
+Our code is based on this repo at https://github.com/thuan2412/conditional_entropy_minimization_for_domain_generalization. 
